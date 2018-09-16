@@ -125,7 +125,7 @@ def over?(board)
   #   true
   # end
 
-  won?(board) || full?(board)
+  won?(board) || draw?(board)
 
 end
 
